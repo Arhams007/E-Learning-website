@@ -1,0 +1,393 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #f1f1f1;
+}
+
+#top-sec{
+    background-image: url(./images/hero.1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.topnav{
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.topnav h1, p, h3{
+    margin: 0%;
+}
+.topnav button{
+    border: 0;
+    background-color: #1eb2a6;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s all;
+}
+.topnav button:hover{
+    background-color: #248a82;
+}
+.topnav a{
+    text-decoration: none;
+    color: white;
+}
+.topnav h1{
+    transition: 0.4s all;
+}
+.topnav a:hover h1{
+    color: #1eb2a6;
+}
+.topnav .topnav-1 .footer-icons{
+    color:  #1eb2a6;
+    
+}
+.get-certificate{
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.get-certificate ul{
+    padding: 0%;
+    margin: 0%;
+    padding-left: 20px;
+}
+.get-certificate ul li{
+    display: inline;
+    margin-right: 35px;
+}
+.get-certificate ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+.get-certificate ul li a:hover{
+    color: #1eb2a6 !important;
+}
+.active{
+    color: #1eb2a6 !important;
+}
+.get-certificate button{
+    border: 0;
+    background-color: #1eb2a6;
+    color: white;
+    text-transform: uppercase;
+    padding: 30px 30px;
+    font-weight: bold;
+}
+.get-certificate button:hover{
+    background-color: wheat;
+    color: #1eb2a6;
+    transition: 0.4s all;
+}
+.heroContent{
+    width: 50%;
+    padding: 100px 0px 10px 50px;
+    color: white;
+}
+.heroContent h1{
+    font-size: 40px;
+    color: #1eb2a6;
+}
+.heroContent p{
+    margin: 0%;
+}
+.heroContent h1{
+    margin: 5px 0px 25px 0px;
+}
+.heroContent button{
+    margin-top: 20px;
+}
+.heroContent .hero-btn1:hover{
+    background-color:white;
+    color:#248a82;
+    transition: 0.4s all;
+}
+.heroContent .hero-btn2:hover{
+    background-color: #1eb2a6;
+    color: white;
+    transition:0.4s all;
+}
+
+.hero-btn1{
+    background-color: #1eb2a6;
+    color: white;
+    border:0;
+    padding: 15px 30px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.hero-btn2{
+    background-color: white;
+    color: #1eb2a6;
+    border:0;
+    padding: 15px 30px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+/* Newsletter Section */
+#newsletter{
+    background-color: #1eb2a6;
+}
+.newsletter-wrap{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 80px;
+}
+.newsletter-left{
+    width: 50%;
+    color: white;
+}
+.newsletter-left h2{
+    font-size: 25px;
+    margin: 0%;
+    margin-bottom: 10px;
+}
+.newsletter-right{
+    width: 30%;
+}
+
+.newsletter-right input{
+    background-color: #1eb2a6;
+    border: none;
+    border-bottom:  1px white solid;
+    width: 250px;
+    height: 30px;
+}
+.newsletter-right input:active{
+    border: none;
+    outline: none !important;
+}
+.newsletter-right input{
+    background-image: url(./images/paper-plan.svg);
+    content: '';
+    background-size: cover;
+    background-position-x:right ;
+    background-position-y:center ;
+    background-size: 15px;
+    background-repeat: no-repeat;
+}
+
+
+
+
+/* Footer Section*/
+.footer-wrap{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 50px;
+}
+.f-blog-card{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.f-blog-card img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.footer-sections{
+    width: 20%;
+    margin: 0px 10px;
+}
+.footer-sections h2{
+    margin-top: 0;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+.footer-logo h2{
+    color: #111111;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.footer-logo a p{
+    font-size:10px;
+    font-weight: bold;
+    color: #1eb2a6;
+    margin-bottom: 15px;
+}
+.footer-logo .primarytxt{
+    color: gray;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.footer-icons i{
+    width: 10px;
+    height: 10px;
+    background-color: #1eb2a6;
+    padding: 8px;
+    border-radius: 50%;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+}
+.footer-logo a{
+    text-decoration: none;
+}
+
+.footer-explore ul{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+.footer-explore ul li{
+    margin-bottom: 10px;
+}
+.footer-explore ul li i{
+    color: #1eb2a6;
+}
+.footer-explore ul li a{
+    text-decoration: none;
+    color: #111111;
+    font-size: 12px;
+}
+
+
+.footer-qlinks ul{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+.footer-qlinks ul li{
+    margin-bottom: 10px;
+}
+.footer-qlinks ul li i{
+    color: #1eb2a6;
+}
+.footer-qlinks ul li a{
+    text-decoration: none;
+    color: #111111;
+    font-size: 12px;
+}
+
+.f-blog-card-right{
+    padding: 0px 5px;
+}
+.footer-blogs .f-blog-card-right span i{
+    color: #1eb2a6 ;
+    font-size: 8px;
+}
+.footer-blogs .f-blog-card-right span b{
+    color: #1eb2a6;
+    font-size: 8px;
+}
+.f-blog-card-right a{
+    text-decoration: none;
+    color: #111111;
+    transition: 0.4s all;
+}
+.f-blog-card-right a:hover{
+    color: #1eb2a6;
+}
+
+
+.query-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.query-div i{
+    color: #1eb2a6;
+    font-size: 15px;
+}
+.footer-query p{
+    font-size: 12px;
+    margin-left: 10px;
+}
+.footer-explore a:hover{
+    color: #1eb2a6;
+}
+.footer-qlinks a:hover{
+    color: #1eb2a6;
+}
+
+
+
+/* Add media queries for different screen sizes */
+
+/* Mobile devices (portrait and landscape) */
+@media (max-width: 600px) {
+ .top-nav,.heroContent,.learn-left,.learn-right,.stats-sec,.courses-sec,.online-course-sec,.testiomonials-sec,.blog-row,.pricing-row,.newsletter-wrap,.footer-wrap {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  /* Adjust the width and padding of elements */
+ .heroContent,.learn-left,.learn-right,.stats-sec,.courses-sec,.online-course-sec,.testiomonials-sec,.blog-row,.pricing-row,.newsletter-wrap,.footer-wrap {
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  /* Hide or adjust elements for smaller screens */
+ .top-nav ul,.learn-card,.course-card,.online-course-card,.test-card-wrap,.blog-card,.pricing-card {
+    display: none;
+  }
+
+  /* Add responsive styles for smaller screens */
+ .heroContent h1,.heroContent p {
+    text-align: center;
+  }
+
+  /* Adjust the font size and spacing for smaller screens */
+ .heroContent h1 {
+    font-size: 24px;
+  }
+
+ .heroContent p {
+    font-size: 14px;
+  }
+
+  /* Add more responsive styles as needed */
+}
+
+/* Tablet devices (landscape) */
+@media (min-width: 601px) and (max-width: 900px) {
+  /* Adjust the layout and styling for tablet screens */
+ .top-nav ul,.learn-card,.course-card,.online-course-card,.test-card-wrap,.blog-card,.pricing-card {
+    flex-basis: 45%;
+  }
+
+  /* Adjust the font size and spacing for tablet screens */
+ .heroContent h1 {
+    font-size: 32px;
+  }
+
+ .heroContent p {
+    font-size: 16px;
+  }
+
+  /* Add more responsive styles as needed */
+}
+
+/* Desktop devices (landscape) */
+@media (min-width: 901px) {
+  /* Adjust the layout and styling for desktop screens */
+ .top-nav ul,.learn-card,.course-card,.online-course-card,.test-card-wrap,.blog-card,.pricing-card {
+    flex-basis: 20%;
+  }
+
+  /* Adjust the font size and spacing for desktop screens */
+ .heroContent h1 {
+    font-size: 40px;
+  }
+
+ .heroContent p {
+    font-size: 18px;
+  }
+
+  /* Add more responsive styles as needed */
+}
